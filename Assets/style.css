@@ -1,11 +1,18 @@
 * {
-  background-image:;
+  background-image: ;
   background-size: cover;
 }
 
-nav{
+nav {
   font-color: black;
+  background-color: gray;
 }
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
 .card {
   margin: 50px;
   border-style: solid;
@@ -25,6 +32,34 @@ nav{
   margin: 25px;
   align-items: center;
 }
+
+.contactForm {
+  width: 400px minmax(100px, 500px);
+  height: 600px;
+  margin: 50px;
+  border: solid black;
+}
+
+form {
+  margin: 50px;
+}
+
+/* .contactText {
+  margin: 50px;
+}
+
+.contactBox1 {
+  width: 50px;
+}
+
+.contactBox2 {
+  width: 262px;
+}
+
+textarea {
+  width: 396px;
+  height: 300px;
+} */
 
 .media {
   margin: 50px;
