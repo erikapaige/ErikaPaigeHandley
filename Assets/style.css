@@ -1,5 +1,40 @@
-.smile{
+* {
+  background-image: url(./Background-Image-Abstract.jpg);
+  background-size: cover;
+}
+
+nav{
+  font-color: black;
+}
+.card {
+  margin: 50px;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+}
+
+.card-text {
+  font-family: fantasy;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.smile {
   width: 200px;
   height: 200px;
+  margin: 25px;
+  align-items: center;
+}
+
+.media {
   margin: 50px;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+}
+
+.media-body {
+  margin: 50px;
+  color: white;
+  background-color: black;
 }
