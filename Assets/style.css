@@ -5,7 +5,7 @@
 
 nav {
   font-color: black;
-  background-color: gray;
+  background-color: rgb(142, 140, 140);
 }
 
 h3 {
@@ -33,9 +33,25 @@ h3 {
   align-items: center;
 }
 
+.container {
+  display: grid;
+  width: 400px minmax(100px, 500px);
+  height: 750px;
+  margin: 50px;
+  border: solid black;
+}
+
+.row {
+  height: 1fr;
+}
+
+.col-md-6 {
+  width: 2fr;
+}
+
 .contactForm {
   width: 400px minmax(100px, 500px);
-  height: 600px;
+  height: 750px;
   margin: 50px;
   border: solid black;
 }
