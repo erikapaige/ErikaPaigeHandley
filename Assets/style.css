@@ -12,6 +12,9 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+form{
+  width: 600px;
+}
 
 .card {
   margin: 50px;
@@ -34,54 +37,26 @@ h3 {
 }
 
 .container {
-  display: grid;
-  width: 400px minmax(100px, 500px);
-  height: 750px;
-  margin: 50px;
+  display: flex;
+  /* display: grid; */
+  width: 600px;
+  height: 600px;
   border: solid black;
 }
 
 .row {
-  height: 1fr;
+  padding: 50px;
 }
 
-.col-md-6 {
-  width: 2fr;
-}
-
-.portfolioCard {
-  height: 400px;
-  border-style: solid;
-  border-color: black;
-}
-
-.contactForm {
-  width: 400px minmax(100px, 500px);
-  height: 750px;
-  margin: 50px;
-  border: solid black;
+.portfolioImage {
+  width: 100%;
+  height: auto;
+  /* height: 200px; used for display grid */
 }
 
 form {
-  margin: 50px;
+  padding: 50px;
 }
-
-/* .contactText {
-  margin: 50px;
-}
-
-.contactBox1 {
-  width: 50px;
-}
-
-.contactBox2 {
-  width: 262px;
-}
-
-textarea {
-  width: 396px;
-  height: 300px;
-} */
 
 .media {
   margin: 50px;
