@@ -6,20 +6,11 @@
   <link rel="stylesheet" href="./Assets/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./Assets/style.css">
-  <style>
-    @media screen and (max-width: 500px) {
-      .smile{
-        width: 200px;
-        height: 350px;
-        vertical-align: center;
-      }
-    }
-  </style>
   <title>AboutMe</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="./index.html">Home</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"
+    <a class="navbar-brand" href="" >Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,17 +28,37 @@
       </ul>
     </div>
   </nav>
-    <div class="media">
-      <img src="./Assets/images-smile-life.jpg" class="smile" class="align-self-center mr-3" alt="smiling">
-      <div class="media-body">
-        <h5 class="mt-0">A Little Bit About Me....</h5>
-        <p>CAREER: I work as a freelance fashion stylist. Dream job would be to combine my love of fashion with my new web developemnt
-        skills.</p>
-        <p class="mb-0">WHY I TOOK THIS COURSE: Working as a freelance creative (fashion stylist), I often have a vision that I am eager to execute. When creating a
-        look or collaborating with production to build a story; I have the knowledge and tools it takes to turn the vision into
-        reality. I am looking to expand that knowledge into technology, in particular website development.</p>
+  <div class="container" style="flex-wrap: wrap;">
+    <div class="row aboutMe">
+      <div class="col-sm-6">
+        <img class="smile" src="./Assets/images-smile-life.jpg" alt="Girl waiving and smiling at the camera.">
+      </div>
+      <div class="col-sm-6">
+        <div class="media-body">
+        <h5 class="mt-0">ABOUT ME</h5>
+        <p>CAREER: I work as a freelance fashion stylist. Dream job would be to combine my love of fashion with my new web developemnt skills.</p>
+        </div>
       </div>
     </div>
+    <div class="row aboutMe">
+      <div class="col-sm-6">
+        <div class="media-body">
+          <h5 class="mt-0">WHY I TOOK THIS COURSE</h5>
+           <p class="mb-0"> Working as a freelance creative (fashion stylist), I often have a vision that I am eager to execute. When creating a look or collaborating with production to build a story; I have the knowledge and tools it takes to turn the vision into a reality. I am looking to expand that knowledge into technology, in particular website development.</p>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img class="smile" src="./Assets/images-smile-life.jpg" alt="Girl waiving and smiling at the camera.">
+      </div>
+    </div>
+  </div>
 
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

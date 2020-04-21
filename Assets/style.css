@@ -1,7 +1,7 @@
-* {
+/* * {
   background-image: ;
   background-size: cover;
-}
+} */
 
 nav {
   font-color: black;
@@ -12,8 +12,15 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-form{
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter
+}
+
+form {
   width: 600px;
+  padding: 50px;
 }
 
 .card {
@@ -36,37 +43,38 @@ form{
   align-items: center;
 }
 
+.media-body {
+  color: black;
+  font-size: small;
+  margin: 0px;
+}
+
 .container {
   display: flex;
-  /* display: grid; */
   width: 600px;
   height: 600px;
   border: solid black;
+  align-content: center;
 }
 
 .row {
   padding: 50px;
 }
 
+.aboutMe {
+  padding: 15px;
+  align-items: center;
+}
+
 .portfolioImage {
   width: 100%;
   height: auto;
-  /* height: 200px; used for display grid */
 }
 
-form {
-  padding: 50px;
-}
-
-.media {
-  margin: 50px;
-  border-style: solid;
-  border-width: thick;
-  border-color: black;
-}
-
-.media-body {
-  margin: 50px;
-  color: white;
-  background-color: black;
+@media screen and (max-width: 500px) {
+  .smile {
+    width: 200px;
+    height: 350px;
+    vertical-align: center;
+  }
 }
