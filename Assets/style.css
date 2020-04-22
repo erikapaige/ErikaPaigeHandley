@@ -90,3 +90,15 @@ p {
 .logo {
   padding: 10px;
 }
+@media (max-width: 775px){
+  
+}
+
+/* footer queries */
+@media screen (max-width:500px) {
+  .media {
+    width: 300px;
+    padding: 25px 12.5px 15px 12.5px;
+    align-content: center
+  }
+}
