@@ -26,10 +26,6 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.carouselslide {
-
-}
-
 .top {
   padding: 10px 16px 0px 0px;
 }
@@ -116,12 +112,34 @@ p {
   }
 }
 
+/* portfolio queries */
+
 @media (max-width:400px) {
   .col-sm-6 {
     padding: 0px 43.5px 0px 43.5px !Important;
   }
   #imgOne {
     padding: 0px;
+  }
+}
+
+/* contact sheet queries */
+@media (min-width:1000px) {
+  .contactSheet {
+    align-content: center;
+  }
+  #laptop {
+    margin: 0 100px 25px 100px;
+  }
+}
+
+@media (max-width:500px) {
+  .contactSheet {
+    width: auto;
+    align-content: center;
+  }
+  #laptop {
+    margin: 0 100px 25px 100px;
   }
 }
 
