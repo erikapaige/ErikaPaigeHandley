@@ -26,6 +26,27 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.top {
+  padding: 10px 16px 0px 0px;
+}
+
+.bottom {
+  text-align: right;
+  padding: 10px 0px 0px 16px;
+}
+
+#topLeftImage {
+  margin: 0px 0px 0px 16px;
+  padding: 0px 0px 10px 0px;
+  align-items: center;
+}
+
+#bottomRightImage {
+  margin: 0px 0px 0px 16px;
+  padding: 10px 0px 0px 0px;
+  align-items: center;
+}
+
 .card {
   margin: 50px;
   border-style: solid;
@@ -39,58 +60,43 @@ p {
   text-align: center;
 }
 
-.smile {
-  width: 200px;
-  height: 200px;
-  margin: 25px;
-  align-items: center;
-}
-
 .media-body {
   color: black;
   font-size: small;
-  margin: 0px;
+  /* margin: 0px; */
+  vertical-align: center;
 }
 
 .container {
-  /* display: flex; */
+  display: grid;
   align-content: center;
-}
   /* width: 600px;
   height: 600px;
-  /* border: solid black;
-  }
+  border: solid black; */
+}
 
-/* .row {
-  padding: 50px;
-} */
-  .aboutMe {
-    padding: 15px;
-    align-items: center;
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-content: center;
+  padding: 0px;
+  height: 50px;
+}
+
+.logo {
+  padding: 12.5px;
+}
+
+@media screen and (min-width: 315px;
+) {
+  .aboutMe, {
+    width: 200px;
+    height: 350px;
+    vertical-align: center;
   }
-  .portfolioImage {
-    width: 100%;
-    height: auto;
-  }
-  .footer {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: black;
-    color: white;
-    text-align: center;
-    align-content: center;
-    padding: 0px;
-    height: 50px;
-  }
-  .logo {
-    padding: 12.5px;
-  }
-  @media screen and (min-width: 315px;) {
-    .smile, .aboutMe, .portfolioImage, {
-      width: 200px;
-      height: 350px;
-      vertical-align: center;
-    }
-  }
+}
