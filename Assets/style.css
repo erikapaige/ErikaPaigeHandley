@@ -90,11 +90,28 @@ p {
 .logo {
   padding: 10px;
 }
-@media (max-width: 775px){
-  
+
+@media (max-width: 525px) {
+  #topLeftImage {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+  }
+  #bottomRightImage {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+  }
+  .top{
+    font-size: x-small;
+  }
+  .bottom {
+    font-size: x-small;
+  }
 }
 
 /* footer queries */
+
 @media screen (max-width:500px) {
   .media {
     width: 300px;
