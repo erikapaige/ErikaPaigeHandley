@@ -9,8 +9,8 @@ nav {
 
 #laptop {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  width: auto;
+  height:350px;
 }
 
 h3 {
