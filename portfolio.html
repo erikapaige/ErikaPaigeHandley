@@ -4,10 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Bootstrap  -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="Assets/style.css">
-  <title>Portfolio</title>
+  <!-- Font Awesome (used for icons)-->
+  <script src="https://kit.fontawesome.com/bc8806cb40.js" crossorigin="anonymous"></script>
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="./Assets/style.css">
 </head>
 
 <body>
@@ -34,6 +38,94 @@
     </div>
   </nav>
   <!-- End Navigation Bar -->
+
+  <!-- Main Page Heading -->
+  <div class="col-12 text-center mt-5">
+    <h1 class="text-dark pt-4">Projects</h1>
+    <div class="border-top border-primary w-25 mx-auto my-3"></div>
+    <p class="lead">Various Projects from UCI's 12 Week Web Dev Bootcamp</p>
+  </div>
+  <!-- End Main Page Heading -->
+
+  <!-- Start Projects, 3 column section -->
+  <div class="container">
+    
+    <!-- Start First Row of Portfolio Projects -->
+    <div class="row my-5">
+      <div class="col-md-4 my-4">
+        <img src="./Assets/imgs/Screen Shot 2020-09-01 at 4.32.57 PM.png" alt="" class="w-100">
+        <h4 class="my-4">100 Days of Code</h4>
+        <p>After graduating from University of Irvine's Web Development Bootcamp; I knew I wanted to further develop my coding
+        skills. In order to maintain and increase my skill level, on August 10th I made the decision to join the #100DaysOfCode
+        challenge. The challenge asks participants to commit to at least 1 hour each day of coding for 100 days.</p>
+        <a href="https://github.com/erikapaige/100DaysOfCode" class="btn btn-outline-dark btn-md" target="_blank">Repo</a>
+        <a href="https://erikapaige.github.io/100DaysOfCode/" class="btn btn-outline-dark btn-md" target="_blank">Deployed App</a>
+      </div>
+  
+      <div class="col-md-4 my-4">
+        <img src="./Assets/imgs/DeweySm.png" alt="" class="w-100 pb-3">
+        <h4 class="my-4">Dewey: Your Personal Library</h4>
+        <p>Using the OpenLibrary api, Dewey is able to create and store an online personal library. Books can be searched by title
+        or ISBN and saved to a user's 'library.' The saved books can be viewed on the user's profile page, their digital
+        bookshelf. At the bookshelf, a user can 'loan' a book to a friend. Once entering the friend's information, the book will
+        move from their library shelf to the 'loaned book' shelf.</p>
+        <a href="https://github.com/usrs/Dewey" class="btn btn-outline-dark btn-md" target="_blank">Repo</a>
+        <a href="http://dewey.works/" class="btn btn-outline-dark btn-md" target="_blank">Deployed App</a>
+      </div>
+  
+      <div class="col-md-4 my-4">
+        <img src="./Assets/imgs/ListivitySm.png" alt="" class="w-100">
+        <h4 class="my-4">Listivity</h4>
+        <p>Listivity is an application that tracks social activity ideas into three categories: Activities, Dining and Entertain.
+        When a user submits their inputs, their data is stored in a MYSQL database and retrieved the next time they log into
+        their account. Each activity can be edited and deleted. Additionally, users are able to click the "shuffle" button. The
+        site will sort through the user's stored data and present them with an activity.</p>
+        <a href="https://github.com/ShaneMit/Project2" class="btn btn-outline-dark btn-md" target="_blank">Repo</a>
+        <a href="https://radiant-woodland-54871.herokuapp.com/" class="btn btn-outline-dark btn-md" target="_blank">Deployed App</a> 
+      </div>
+    </div>
+    <!-- End First Row of Portfolio Projects -->
+
+    <!-- Start Second Row of Portfolio Projects -->
+    <div class="row my-5">
+    
+      <div class="col-md-4 my-4">
+        <img src="./Assets/imgs/ProgressiveBudgetSm.png" alt="" class="w-100 pb-4">
+        <h4 class="my-4">Progressive Budget</h4>
+        <p>The 'Budget Tracker' allows users to track expenses and deposits. The application is available to users with or without
+        data/internet connection. If a user is offline, their entries are stored and the application is updated once a
+        connection exists. This functionality enables users to track their expenses and receive their most up to date balance
+        regardless of connection.</p>
+        <a href="https://github.com/erikapaige/progressiveBudget" class="btn btn-outline-dark btn-md" target="_blank">Repo</a>
+        <a href="https://nameless-mesa-29263.herokuapp.com/" class="btn btn-outline-dark btn-md" target="_blank">Deployed App</a>
+      </div>
+    
+      <div class="col-md-4 my-4">
+        <img src="./Assets/imgs/fitnessTrackerSm.png" alt="" class="w-100">
+        <h4 class="my-4">Fitness Tracker</h4>
+        <p>The 'Workout Tracker' application allows users to view create and track daily workouts. A user can track the name, type,
+        weight, sets, reps and duration of the exercise. At the beginning of each session a user can decide to 'Continue
+        Workout' or select 'New Workout.' As a user tracks their fitness data, they can see their exercises combined on the
+        'stats.'</p>
+        <a href="https://github.com/erikapaige/workoutTracker" class="btn btn-outline-dark btn-md" target="_blank">Repo</a>
+        <a href="https://tranquil-hollows-63682.herokuapp.com/" class="btn btn-outline-dark btn-md" target="_blank">Deployed App</a>
+      </div>
+    
+      <div class="col-md-4 my-4">
+        <img src="./Assets/imgs/burgerBuzzSm.png" alt="" class="w-100 pb-4">
+        <h4 class="my-4">The Buzz About Burgers</h4>
+        <p>The Buzz About Burgers is a restaurant application that allows users to input the name of burgers they would like to
+        eat. When a user submits a burger it will display on the left side of the screen, waiting to be devoured. When the user
+        clicks the "Devour" button; the burger moves to the other side of the page. Each burger submitted is stored in a MySql
+        database.</p>
+        <a href="https://github.com/erikapaige/burger" class="btn btn-outline-dark btn-md" target="_blank">Repo</a>
+        <a href="https://fierce-chamber-18329.herokuapp.com/" class="btn btn-outline-dark btn-md" target="_blank">Deployed App</a>
+      </div>
+    </div>
+    <!-- End Second Row of Portfolio Projects -->
+
+  </div>
+  <!-- End Projects, 3 column section -->
 
  
   <!-- Start Footer -->
