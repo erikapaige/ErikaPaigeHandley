@@ -3,18 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-  <title>Contact</title>
-  <!-- Bootstrap  -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <!-- Font Awesome (used for icons)-->
-  <script src="https://kit.fontawesome.com/bc8806cb40.js" crossorigin="anonymous"></script>
-  <!-- Style Sheets -->
+  <link rel="stylesheet" href="./Assets/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./Assets/style.css">
+  <title>AboutMe</title>
 </head>
-
 <body>
-  <!-- Start Navigation Bar -->
+
+  <!-- navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="./index.html">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -35,43 +31,33 @@
       </ul>
     </div>
   </nav>
-  <!-- End Navigation Bar -->
 
-  <!-- Section with Contact Form -->
+  <!-- About Me section -->
   <main>
     <div class="container">
-      <div class="row" class="contactSheet">
-      <form>
-        <div class="form-group" id=formText>
-          <p>NAME:<input type="text" class="form-control"></p>
-          <label for="exampleFormControlInput1">EMAIL ADDRESS:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">HOW DID YOU HEAR ABOUT THIS SITE?</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1 - GitHub</option>
-            <option>2 - LinkedIn</option>
-            <option>3 - Twitter</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">MESSAGE:</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-        </div>
-      </form>
       <div class="row aboutMe">
-        <div class="media" class="text-center">
-          <img src="./Assets/Images/7-contact-page.JPG" id="laptop" class="align-self-center mr-3" alt="laptop with code on screen">
+        <div class="media">
+          <img src="./Assets/Images/5 -about-me.jpg" class="align-self-center mr-3" id="topLeftImage" alt="woman waving">
+          <div class="media-body">
+              <p class="top">I am a Wardrobe Stylist and an image consultant with 10+ years of industry experience. I offer creative solutions with critical analysis to bring brand awareness through strong visuals and styling. I bring a self-motivated work ethic and a positive attitude to team projects. I am always ready for the next new challenge!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row aboutMe">
+        <div class="media">
+          <div class="media-body">
+            <p class="bottom"> Working as a freelance creative, I often have a vision that I am eager to execute. When creating a look or collaborating with production to build a story; I have the knowledge and tools it takes to turn the vision into a reality. I am looking to expand that knowledge into technology, in particular website development.</p>
+          </div>
+          <img src="./Assets/Images/6-about-me.jpg" class="align-self-center mr-3" id="bottomRightImage" alt="woman waving">
         </div>
       </div>
     </div>
   </main>
-
+  
   <!-- Start Footer -->
   <footer class="pt-4">
     <div class="container">
-  
+
       <div class="row text-light text-center py-4 justify-content-center">
         <div class="col-sm-10 col-md-8 col-lg-6">
           <ul class="social pt-3">
@@ -98,13 +84,13 @@
           </ul>
         </div>
       </div>
-  
+
       <div class="row text-light text-center justify-content-center">
         <div class="col-sm-10 col-md-8 col-lg-6">
           <p>&copy; <a href="#" target="_blank">www.portfolio.com</a></p>
         </div>
       </div>
-  
+
     </div>
   </footer>
   <!-- End Footer -->
