@@ -43,7 +43,7 @@ bottom {
   margin: 10px;
 }
 
-/*-- Footer --*/
+/*============= FOOTER =============*/
 
 footer {
   background-color: #383838;
@@ -76,4 +76,11 @@ footer .svg-inline--fa {
 
 footer.sv-inline--fa:hover {
   color: rgba(177, 103, 206, 0.548)!important;
+}
+
+/*============= SOCKET =============*/
+
+.socket {
+  background-color: #222222;
+  border-top: .1rem solid #4981b3;
 }
