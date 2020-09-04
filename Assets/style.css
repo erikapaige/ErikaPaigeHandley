@@ -1,4 +1,4 @@
-nav {
+/* nav {
   background-color: rgb(142, 140, 140);
 }
 
@@ -41,15 +41,14 @@ bottom {
   justify-content: center;
   align-content: center;
   margin: 10px;
-}
+} */
 
 /*============= FOOTER =============*/
 
 footer {
   background-color: #383838;
   padding: 1rem 2rem 3rem;
-  margin-bottom: 0rem!important;
-  margin-top: 4rem;
+  margin-bottom: 0px;
 }
 
 footer p, footer a {
